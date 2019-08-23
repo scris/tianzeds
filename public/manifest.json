@@ -1,0 +1,15 @@
+{
+  "name": "Scris Switchable",
+  "short_name": "Switchable",
+  "icons": [
+    {
+      "src": "iosandroid.ico",
+      "sizes": "256x256"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fdfdfd",
+  "display": "standalone",
+  "categories": ["productivity"],
+  "theme_color": "darkred"
+}
