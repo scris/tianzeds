@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="container">
     ＴｉａｎｚｅＤｓＱｉｕ<br>
-    杭州市第二中学学生<br>
+    浙江省杭州第二中学学生<br>
     个人主要作品<br>
     <span class="grey">
       <a href="https://github.com/scris/switchable">Ｓｗｉｔｃｈａｂｌｅ</a><br>
