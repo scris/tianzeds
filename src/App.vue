@@ -65,17 +65,17 @@ a:active {
     margin-top: 10vh;
     margin-bottom: 10vh;
     padding-right: 0rem;
-    letter-spacing: 0.8rem;
-    font-size: 0.8rem;
+    letter-spacing: 0.78rem;
+    font-size: 0.78rem;
 }
 .icon {
-  width: 0.8rem;
-  height: 0.8rem;
+  width: 0.78rem;
+  height: 0.78rem;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 420px) {
     .container {
-      max-width: 576px;
+      max-width: 420px;
       letter-spacing: 1rem;
       font-size: 1rem;
       line-height: 200%;
@@ -86,9 +86,9 @@ a:active {
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 630px) {
     .container {
-      max-width: 576px;
+      max-width: 620px;
       letter-spacing: 1.5rem;
       font-size: 1.5rem;
       line-height: 200%;
