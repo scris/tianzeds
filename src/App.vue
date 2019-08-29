@@ -8,7 +8,7 @@
       Ｌｉｎｘｖｕｅ<br>
       ＳｃｒｉｓＴａｓｋ<br>
     </span>
-    技术栈<br>
+    技能<br>
     <span class="grey">
       ＨＴＭＬ与ＣＳＳ<br>
       ＪＳ与Ｖｕｅ<br>
@@ -42,7 +42,18 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     line-height: 200%;
-    font-family: "Dejavo Sans Mono", Consolas, Menlo, monospace;
+    font-family: "Alibaba PuHuiTi", Consolas, Menlo, monospace;
+}
+
+@font-face {
+    font-family: "Alibaba-PuHuiTi-Regular";
+    src: url("assets/Alibaba-PuHuiTi-Regular.eot"); /* IE9 */
+    src: url("assets/Alibaba-PuHuiTi-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("assets/Alibaba-PuHuiTi-Regular.woff") format("woff"), /* chrome、firefox */
+    url("assets/Alibaba-PuHuiTi-Regular.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("assets/Alibaba-PuHuiTi-Regular.svg#Alibaba-PuHuiTi-Regular") format("svg"); /* iOS 4.1- */
+    font-style: normal;
+    font-weight: normal;
 }
 
 a, a:hover, a:active {
