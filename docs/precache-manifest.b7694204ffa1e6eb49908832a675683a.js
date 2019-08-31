@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "57d95b95a5fd9dfc31c55dc6cdcf0021",
-    "url": "/CNAME"
+    "revision": "7e7b2cb20243b5c35461e5154dbe1c47",
+    "url": "/fonts/Alibaba-PuHuiTi-Regular.css"
   },
   {
     "revision": "4918edcc319c7ab53f7c5e589530b277",
@@ -12,7 +12,7 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.4f8a98b9.js"
   },
   {
-    "revision": "31251713b62d1925fa4a19f2b87c5313",
+    "revision": "2e15002a2832731df12e60ddc5d846ca",
     "url": "/index.html"
   },
   {
@@ -20,27 +20,27 @@ self.__precacheManifest = [
     "url": "/fonts/Alibaba-PuHuiTi-Regular.woff"
   },
   {
-    "revision": "d80a253c642eade50bda",
-    "url": "/js/app.c6190878.js"
-  },
-  {
-    "revision": "49b0e2b1d260f876ab83b04f6daf7191",
-    "url": "/fonts/Alibaba-PuHuiTi-Regular.ttf"
+    "revision": "c60056ca05fad0e36d10",
+    "url": "/js/app.5f41aacd.js"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
   },
   {
+    "revision": "49b0e2b1d260f876ab83b04f6daf7191",
+    "url": "/fonts/Alibaba-PuHuiTi-Regular.ttf"
+  },
+  {
     "revision": "2f12adb2dc339f0c819c5a85597166e6",
     "url": "/fonts/Alibaba-PuHuiTi-Regular.eot"
   },
   {
-    "revision": "7e7b2cb20243b5c35461e5154dbe1c47",
-    "url": "/fonts/Alibaba-PuHuiTi-Regular.css"
+    "revision": "c60056ca05fad0e36d10",
+    "url": "/css/app.e9bb0f6a.css"
   },
   {
-    "revision": "d80a253c642eade50bda",
-    "url": "/css/app.001a8ba8.css"
+    "revision": "57d95b95a5fd9dfc31c55dc6cdcf0021",
+    "url": "/CNAME"
   }
 ];
