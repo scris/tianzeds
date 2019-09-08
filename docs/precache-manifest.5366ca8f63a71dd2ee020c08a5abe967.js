@@ -8,11 +8,11 @@ self.__precacheManifest = [
     "url": "/fonts/Alibaba-PuHuiTi-Regular.svg"
   },
   {
-    "revision": "e32453e2770b975e0f6c",
-    "url": "/js/chunk-vendors.4f8a98b9.js"
+    "revision": "ed7e88009c63516b0ff5",
+    "url": "/js/chunk-vendors.2d382f95.js"
   },
   {
-    "revision": "2e15002a2832731df12e60ddc5d846ca",
+    "revision": "b433cccc906824844ad6296ffc70c72f",
     "url": "/index.html"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/fonts/Alibaba-PuHuiTi-Regular.woff"
   },
   {
-    "revision": "c60056ca05fad0e36d10",
-    "url": "/js/app.5f41aacd.js"
+    "revision": "1d62ead60d52f535b8a8",
+    "url": "/js/app.47bc46bf.js"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
@@ -36,8 +36,8 @@ self.__precacheManifest = [
     "url": "/fonts/Alibaba-PuHuiTi-Regular.eot"
   },
   {
-    "revision": "c60056ca05fad0e36d10",
-    "url": "/css/app.e9bb0f6a.css"
+    "revision": "1d62ead60d52f535b8a8",
+    "url": "/css/app.3d117f36.css"
   },
   {
     "revision": "57d95b95a5fd9dfc31c55dc6cdcf0021",
