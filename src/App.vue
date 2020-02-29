@@ -4,6 +4,7 @@
     浙江省杭州第二中学学生<br>
     个人主要作品
     <span class="grey">
+      <a href="https://mrnoplay.scris.top/">ＭｒＮｏｐｌａｙ</a><br>
       <a href="https://github.com/scris/switchable">Ｓｗｉｔｃｈａｂｌｅ</a><br>
       Ｌｉｎｘｖｕｅ<br>
       ＳｃｒｉｓＴａｓｋ<br>
