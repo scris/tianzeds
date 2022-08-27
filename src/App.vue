@@ -5,11 +5,11 @@
         Tianze Ds
       </div>
       <div class="line desc">
-        Enthusiast for creating things, and building great apps that're benificial to
+        Enthusiast of creating things, and building great apps that're benificial to
         people's lives.
       </div>
       <div class="line education">
-        Undergraduate of BUPT, Beijing, China.
+        Undergraduate of BUPT, Beijing, China. Based in Hangzhou.
       </div>
     </div>
     <div class="section section-flex">
@@ -50,7 +50,7 @@
             - Lika AI Work&nbsp;<span class="tech">before freshman year</span>
           </div>
           <div class="line-desc kind-desc">
-            &nbsp;&nbsp;Using Pytorch. Built the software part of a low-cost low-image-resolution fabric anomaly detection system with another 12th-grader on top of Maix-II and STFPM. </div>
+            &nbsp;&nbsp;Using Pytorch. Built the software part of a low-cost low-image-resolution fabric anomaly detection system with another 12th-grader on top of Sipeed Maix-II and STFPM. </div>
         </div>
         <div id="timona" class="line-below">
           <div class="kind">
@@ -97,7 +97,7 @@
     </div>
     <div class="section">
       <div class="section-content shallow">
-        Copyright &copy; Tianze Ds Qiu 2022. GitHub <a href="https://github.com/scris" target="_blank">@scris</a>.
+        Copyright &copy; Tianze Ds Qiu 2019-2022. GitHub <a href="https://github.com/scris" target="_blank">@scris</a>.
       </div>
     </div>
   </div>
@@ -116,29 +116,30 @@ export default {
 
 <style lang="scss">
 $base: 0.51em;
-$green: green;
-$black: #445a51;
-$grey: #66bf9a;
-$grey2: #39bc85;
-$grey3: #16a66a;
-$shallow: #8eb0a2;
+$titlegreen: #02be70;
+$green: black;
+$black: black;
+$grey: black;
+$grey2: black;
+$grey3: black;
+$shallow: black;
 
 .darkmode--activated {
   color: #fdfdfd;
 }
 
 body {
-  background-color: #fdfdfd;
+  //background: linear-gradient(136.36deg, #10462A 4.86%, #165836 94.85%);
+  //background: linear-gradient(136.36deg, #ECFAF1 4.86%, #FAFEFB 94.85%);
   color: $black;
-  font-weight: 500;
-  font-family: "", monospace;
+  font-family: "Montserrat", "", monospace;
   line-height: 110%;
 }
 
 .title {
   font-size: $base * 4;
   line-height: 210%;
-  background: #02be70;
+  background: $titlegreen;
   -webkit-background-clip: text;
   color: transparent;
 }
