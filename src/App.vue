@@ -329,6 +329,11 @@ a:active {
   }
 }
 
+@media (max-width: 420px) {
+  .container {
+    font-size: $base * 2.3;
+  }
+}
 
 @media (min-width: 420px) {
   .container {
