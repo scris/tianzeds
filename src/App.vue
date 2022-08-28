@@ -143,13 +143,13 @@ $black: white;
 $opacity: 0.64;
 
 body {
-  background: linear-gradient(to left top, #11876B, #22a670, #49c56b, #6fd756, #B0FF48);
+  background: linear-gradient(to left top, #11876B, #22a670, #49c56b, #5daf49, #B0FF48);
   color: $black;
   font-family: "SF Compact Display", ClearSans, sans-serif;
   padding: 0;
   margin: 0;
-  background-size: 300% 300%;
-  animation: Gradient 15s ease infinite;
+  background-size: 440% 440%;
+  animation: Gradient 10s ease infinite;
 }
 
 @keyframes Gradient {
@@ -234,7 +234,6 @@ body {
 }
 
 .section-content {
-  width: 56vw;
   font-weight: 500;
 }
 
@@ -252,7 +251,7 @@ body {
 }
 
 .section-tech {
-  padding-top: $base * 2;
+  padding-top: 60px;
 }
 
 .tech {
@@ -316,7 +315,7 @@ a:active {
   height: 0.78rem;
 }
 
-@media (max-width: 597px) {
+@media (max-width: 501px) {
   .grid {
     height: 480px;
   }
@@ -324,6 +323,7 @@ a:active {
 
 @media (max-width: 630px) {
   .container {
+    width: 76vw;
     margin-left: 13vw;
     margin-right: 9vw;
   }
