@@ -131,7 +131,6 @@ export default {
   name: "app",
   components: {},
   mounted: function () {
-    // new Darkmode().showWidget();
   },
 };
 </script>
@@ -146,7 +145,7 @@ $opacity: 0.64;
 body {
   background: linear-gradient(to left top, #11876B, #22a670, #49c56b, #6fd756, #B0FF48);
   color: $black;
-  font-family: "SF Compact Display", sans-serif;
+  font-family: "SF Compact Display", ClearSans, sans-serif;
   padding: 0;
   margin: 0;
   background-size: 300% 300%;
