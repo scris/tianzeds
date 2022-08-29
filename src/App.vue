@@ -7,7 +7,7 @@
           Tianze Ds
         </div>
         <div class="line title-desc title-below">
-          Enthusiast of creating things, and building great apps that're benificial to
+          Enthusiast of creating things, and building great apps that are beneficial to
           people's lives.
         </div>
         <div class="line education title-below">
