@@ -137,19 +137,23 @@ export default {
 
 <style lang="scss">
 $base: 0.51em;
-$titlegreen: white;
-$green: white;
-$black: white;
 $opacity: 0.64;
 
 body {
-  background: linear-gradient(to left top, #11876B, #22a670, #49c56b, #5daf49, #B0FF48);
-  color: $black;
+  background: linear-gradient(to left top, #118a6d, #259f6d, #41a25c, #6d9f62);
+  color: white;
   font-family: "SF Compact Display", ClearSans, sans-serif;
   padding: 0;
   margin: 0;
   background-size: 440% 440%;
   animation: Gradient 10s ease infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #efefef;
+    background: linear-gradient(to left top, #176552, #2a7e5b, #3d7e4f);
+  }
 }
 
 @keyframes Gradient {
@@ -178,9 +182,6 @@ body {
 .title {
   font-size: $base * 4;
   line-height: 210%;
-  background: $titlegreen;
-  -webkit-background-clip: text;
-  color: transparent;
   font-weight: 700;
   margin-top: 100px;
 }
@@ -198,12 +199,10 @@ body {
 }
 
 .line {
-  color: $black;
   padding-bottom: $base * 1.4;
 }
 
 .line-desc {
-  color: $black;
   padding-bottom: $base * 0.9;
 }
 
