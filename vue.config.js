@@ -1,7 +1,8 @@
 module.exports = {
   outputDir: "docs",
   css: {
-    loaderOptions: ,
+    loaderOptions: {
+      sass: {},
     },
   },
 };
