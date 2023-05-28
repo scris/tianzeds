@@ -21,28 +21,51 @@
             Mostly Used
           </div>
           <div class="kind">
-            Flutter&nbsp;<span class="tech">for Mobile/Desktop Apps</span>
+            Flutter <span class="tech">for Mobile/Desktop Apps</span>
           </div>
           <div class="kind">
             Electron&nbsp;<span class="tech">for Desktop Apps</span>
           </div>
-          <div class="kind">Vue&nbsp;<span class="tech">for Websites</span></div>
+          <div class="kind">React <span class="tech">for Websites</span></div>
           <div class="line line-below kinds">
             And Others
           </div>
           <div class="kind">
           <span class="less-use"
-          >HTML, CSS, Vanilla JS, Pytorch, Git, Photoshop, Unity, Premiere
-            Pro, QT, Capacitor, Lightroom ...</span>
+          >Vue, HTML, CSS, Vanilla JS, Pytorch, Git, Photoshop, Unity, Premiere
+            Pro, QT, Capacitor, Lightroom, C, LLM, FFMpeg, OpenCV ...</span>
           </div>
         </div>
       </div>
       <div class="section section-flex section-proj">
         <div class="section-title">Projects&nbsp;</div>
         <div class="section-content">
-          <div id="focam">
+          <div id="plannium">
             <div class="kind">
-              Focam, Plannium&nbsp;<span class="tech">Grade 12 - freshman year</span>
+              Plannium&nbsp;<span class="tech">Grade 12 - freshman year</span>
+            </div>
+            <div class="line-desc kind-desc">
+              Using Flutter. A new productivity tool with great design that aims in making the planning and recording of
+              time easier, currently under heavy development.
+            </div>
+          </div>
+          <div id="ezcoding" class="line-below">
+            <div class="kind">
+              EZ Coding <span class="tech">during freshman year</span>
+            </div>
+            <div class="line-desc kind-desc">
+              Using React. A Q&A platform specified in coding and equipped with cutting-edge AI technologies. This
+              project ranked 3/580 in Chuyan Competition of BUPT.
+            </div>
+            <div class="line-desc">
+              <div class="line-desc links">
+                <a href="https://ask.ezcoding.top/" target="_blank">Website</a>
+              </div>
+            </div>
+          </div>
+          <div id="focam" class="line-below">
+            <div class="kind">
+              Focam&nbsp;<span class="tech">Grade 12 - freshman year</span>
             </div>
             <div class="line-desc kind-desc">
               Using Flutter and Electron, under pre-alpha development.
@@ -57,13 +80,18 @@
               detection system with another 12th-grader on top of Sipeed Maix-II and STFPM.
             </div>
           </div>
-          <div id="timona" class="line-below">
+        </div>
+      </div>
+      <div class="section section-flex section-proj">
+        <div class="section-title">Earlier Projects&nbsp;</div>
+        <div class="section-content">
+          <div id="timona">
             <div class="kind">
               Timona&nbsp;<span class="tech">during Grade 11-12</span>
             </div>
             <div class="line-desc kind-desc">
-              Using Flutter, in private beta. One of the strongest ways to keep you on schedule, and live
-              fully of your self-planned times.
+              Using Flutter. One of the strongest ways to keep you on schedule, and live
+              fully of your self-planned times. This is deprecated and will be open sourced in the future.
             </div>
             <div class="line-desc">
               <div class="line-desc links">
@@ -105,7 +133,8 @@
                 Mixbank&nbsp;<span class="tech">during Grade 8</span>
               </div>
               <div class="line-desc kind-desc">
-                Using Unity. Try your best to click faster in order to get a terrific score!
+                Using Unity. A 2D game in which you can try your best to click faster in order to get a terrific
+                score.
               </div>
               <div class="line-desc links">
                 <a href="https://i.loli.net/2018/02/26/5a9371bf6d192.jpeg" target="_blank">Screenshot</a>
@@ -116,7 +145,7 @@
       </div>
       <div class="section section-about">
         <div class="section-content about">
-          <span>Copyright &copy; Tianze Ds Qiu 2019-2022. GitHub </span>
+          <span>Copyright &copy; Tianze Ds Qiu 2019-2023. GitHub </span>
           <a href="https://github.com/scris" target="_blank">@scris</a>
           <span>.</span>
         </div>

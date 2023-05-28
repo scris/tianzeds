@@ -1,14 +1,14 @@
 {
   "name": "ds",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "A Fully-Rewritten Personal Website",
   "repository": "https://github.com/scris/ds.git",
   "author": "Tianze Ds Qiu <slaaker@126.com>",
   "license": "MPL-2.0",
   "private": false,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "s": "yarn run serve",
     "b": "yarn run build"
   },
@@ -21,7 +21,7 @@
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-pwa": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
-    "node-sass": "^6.0.1",
+    "node-sass": "^7.0.3",
     "sass-loader": "^10.0.3",
     "vue-template-compiler": "^2.6.10"
   }
