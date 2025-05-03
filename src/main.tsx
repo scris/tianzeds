@@ -5,7 +5,9 @@ import './index.less';
 
 const Main: React.FC = () => {
   return (
-    <div>Tianze Ds Qiu</div>
+    <div id={'main'}>
+      <div id={'title'}>Tianze Ds Qiu</div>
+    </div>
   )
 }
 
