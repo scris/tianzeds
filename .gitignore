@@ -20,6 +20,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+stats.html
 
 thumbs.db
 !.gitkeep

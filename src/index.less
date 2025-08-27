@@ -10,12 +10,42 @@ body {
 #main {
   height: 100%;
   min-height: 75vh;
-  color: #0A0A0A;
-  background: linear-gradient(to right, #D4FCE1, #EAFFE5);
+  color: #1c472b;
   padding: 15vh 15vw 10vh 15vw;
 }
 
-#title {
-  font-size: 3em;
+#background-dot {
+  position: absolute;
+  top: calc(11vh - 2vw);
+  left: calc(6vw - 1vh);
+  width: calc(8vh + 3.5vw);
+  height: calc(8vh + 3.5vw);
+  opacity: 0.25;
+  z-index: -1;
+  border-top: calc(5vh + 1vw) solid #1ccf5a;
+  border-right: calc(5vh + 1vw) solid #1ccf5a;
+  transform: rotate(30deg);
+}
+
+.title {
+  font-size: 2.2em;
   font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1.7em;
+  font-weight: 500;
+}
+
+.part {
+  padding-bottom: 2em;
+}
+
+.normal {
+  line-height: 1.6em;
+  opacity: 0.85;
+}
+
+a {
+  color: #627a6b;
 }
