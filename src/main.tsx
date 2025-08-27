@@ -37,7 +37,7 @@ const Main: React.FC = () => {
         <div className={'normal'}>
           <p>
             <a href={'https://github.com/scris'} target={'_blank'}>GitHub @scris</a>&nbsp;|&nbsp;
-            <a href={'https://20d2f2f3.tianzeds.pages.dev/'} target={'_blank'}>Former Website Version</a>&nbsp;|&nbsp;
+            <a href={'https://legacy.tianzeds.pages.dev/'} target={'_blank'}>Former Website Version</a>&nbsp;|&nbsp;
             <a href={'https://orcid.org/0009-0009-7532-5620'} target={'_blank'}>ORCID</a>&nbsp;|&nbsp;
             <a href={'https://www.linkedin.com/in/tianze-qiu-5744ba320/'} target={'_blank'}>LinkedIn</a>
           </p>
