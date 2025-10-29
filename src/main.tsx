@@ -10,26 +10,45 @@ const Main: React.FC = () => {
       <div className={'part'}>
         <div className={'title'}>Tianze Ds Qiu / 邱天泽</div>
         <div className={'normal'}>
-          <p>Undergraduate Student of both BUPT and Queen Mary,
-          doing research on Agentic AI, NLP and Trustworthy AI.</p>
-          <p>Also got interests in Apps/Web Development. Loving Flutter.</p>
+          <p>
+            Undergraduate Student of both&nbsp;
+            <a href={'https://www.bupt.edu.cn/'}>BUPT</a>
+            &nbsp;and&nbsp;
+            <a href={'https://www.qmul.ac.uk/'}>Queen Mary</a>,
+            doing research on Agentic AI, NLP and Trustworthy AI.
+          </p>
+          <p>
+            Incoming Ph.D. student of both&nbsp;
+            <a href={'https://cs.fudan.edu.cn/'}>College of CS and AI, Fudan University</a>
+            &nbsp;and&nbsp;
+            <a href={'https://sii.edu.cn/'}>Shanghai Innovation Institute</a>.
+          </p>
+          <p>Also got interests in Apps / Web Development. Loving Cross-Platform.</p>
+        </div>
+      </div>
+      <div className={'part'}>
+        <div className={'subtitle'}>Education</div>
+        <div className={'normal'}>
+          <p><span className={'time'}>Starting from 2026.9:</span> Fudan University, Ph.D. student in Computer Science and Technology.</p>
+          <p><span className={'time'}>2022.9 - 2026.6:</span> BUPT, Undergraduate student in Intelligent Science and Technology. Rank: 2 / 98.</p>
+          <p><span className={'time'}>2019.9 - 2022.6:</span> Hangzhou No.2 High School, Zhejiang.</p>
         </div>
       </div>
       <div className={'part'}>
         <div className={'subtitle'}>Experiences</div>
         <div className={'normal'}>
-          <p>2025.2 - Now: Intern at NTU Singapore, on Agentic AI Safety</p>
-          <p>2024.10 - 2025.5: Intern at Gaoling School of AI, RUC, on LLM Reinforcement Learning</p>
-          <p>2022.10 - Now: Co-creator of MashOn / 码上 Online LLM Education Platform</p>
+          <p><span className={'time'}>2025.2 - 2025.9:</span> Intern at NTU Singapore, on Agentic AI Safety, working under Dr. Xinfeng Li.</p>
+          <p><span className={'time'}>2024.10 - 2025.5:</span> Intern at AIBox, Gaoling School of AI, RUC, on LLM Reinforcement Learning.</p>
+          <p><span className={'time'}>2022.10 - 2025.4:</span> Co-creator of MashOn / 码上 Online LLM Education Platform.</p>
         </div>
       </div>
       <div className={'part'}>
         <div className={'subtitle'}>Noteworthy Facts</div>
         <div className={'normal'}>
-          <p>2024.12: I was awarded the 2024 China National Scholarship</p>
-          <p>2024.10: I won International Gold Medal (Top 0.009%) at China International College Students’ Innovation Competition (a.k.a. “Internet+”) as leading contributor</p>
-          <p>2024.2: The project I co-led, MashOn, is listed among 18 typical cases of AI + Higher Education by the Ministry of Education of China</p>
-          <p>2023.6: I got an impressive CET-6 English score of 636/710</p>
+          <p><span className={'time'}>2024.12:</span> I was awarded the 2024 China National Scholarship.</p>
+          <p><span className={'time'}>2024.10:</span> I won International Gold Medal (Top 0.009%) at China International College Students’ Innovation Competition (a.k.a. “Internet+”) as leading contributor.</p>
+          <p><span className={'time'}>2024.2:</span> The project I co-led, MashOn, is listed among 18 typical cases of AI + Higher Education by the Ministry of Education of China.</p>
+          <p><span className={'time'}>2023.6:</span> I got an impressive CET-6 English score of 636 / 710.</p>
         </div>
       </div>
       <div className={'part'}>
