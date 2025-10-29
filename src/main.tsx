@@ -58,7 +58,9 @@ const Main: React.FC = () => {
             <a href={'https://github.com/scris'} target={'_blank'}>GitHub @scris</a>&nbsp;|&nbsp;
             <a href={'https://legacy.tianzeds.pages.dev/'} target={'_blank'}>Former Website Version</a>&nbsp;|&nbsp;
             <a href={'https://orcid.org/0009-0009-7532-5620'} target={'_blank'}>ORCID</a>&nbsp;|&nbsp;
-            <a href={'https://www.linkedin.com/in/tianze-qiu-5744ba320/'} target={'_blank'}>LinkedIn</a>
+            <a href={'https://www.linkedin.com/in/tianze-qiu-5744ba320/'} target={'_blank'}>LinkedIn</a>&nbsp;|&nbsp;
+            <a href={'./cv-en.pdf'} target={'_blank'}>CV in English</a>&nbsp;|&nbsp;
+            <a href={'./cv-cn.pdf'} target={'_blank'}>CV in Chinese</a>
           </p>
         </div>
       </div>
