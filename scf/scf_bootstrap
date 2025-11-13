@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# SCF Custom Runtime bootstrap for Node.js Express SPA
+export PORT=${PORT:-9000}
+export NODE_ENV=${NODE_ENV:-production}
+
+DIR=$(cd "$(dirname "$0")" && pwd)
+
+# When scf_bootstrap is at ZIP root, bootstrap.mjs is at ./scf/bootstrap.mjs
+if [[ -f "$DIR/bootstrap.mjs" ]]; then
+  node "$DIR/bootstrap.mjs"
+elif [[ -f "$DIR/scf/bootstrap.mjs" ]]; then
+  node "$DIR/scf/bootstrap.mjs"
+else
+  echo "bootstrap.mjs not found near scf_bootstrap" >&2
+  exit 127
+fi

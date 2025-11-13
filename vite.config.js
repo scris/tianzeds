@@ -11,6 +11,14 @@ const buildTarget = ['es2019', 'edge80', 'firefox72', 'chrome78', 'safari13.1']
 // noinspection SpellCheckingInspection
 export default defineConfig({
   hmr: true,
+  server: {
+    host: true,
+    port: 9000,
+  },
+  preview: {
+    host: true,
+    port: 9000,
+  },
   plugins: [
     visualizer({}),
     viteCompression({

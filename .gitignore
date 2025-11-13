@@ -22,7 +22,16 @@ yarn-error.log*
 *.sw?
 stats.html
 
+# Manually Added
 thumbs.db
 !.gitkeep
 /www
+
+# Leancloud
 src/assets/leancloud.json
+
+# Tencent SCF
+/.scf_build
+/.scf
+/coscli_output
+coscli.log

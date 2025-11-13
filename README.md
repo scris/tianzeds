@@ -1,29 +1,20 @@
-# ds
+# Tianze Ds
 
-## Project setup
-```
-yarn install
-```
+New website for Tianze Ds, shipped on Tencent Cloud SCF.
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## SCF Setup
+``` bash
+# Installing packages
+pnpm install
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+# Build locally
+pnpm run build
 
-### Run your tests
-```
-yarn run test
+# Local SCF preview
+pnpm run scf:preview
+
+# Local SCF upload
+pnpm run scf:prepare
+pnpm run scf:update
 ```
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

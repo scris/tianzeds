@@ -1,0 +1,47 @@
+# Deploy this static SPA via Tencent Cloud Functions (SCF) + API Gateway
+# Requires: Serverless Framework with Tencent Components (sls)
+# Notes: This packages files from .scf_build created by `pnpm run scf:prepare`
+
+component: scf
+name: tianzeds
+
+inputs:
+  name: tianzeds
+  src:
+    src: .scf_build
+    exclude:
+      - '**/.git/**'
+      - '**/.DS_Store'
+  handler: scf/index.main_handler
+  runtime: Nodejs20
+  region: ap-nanjing
+  memorySize: 512
+  timeout: 10
+  environment:
+    variables:
+      NODE_ENV: production
+  events:
+    - apigw:
+        name: tianzeds-service
+        parameters:
+          protocols:
+            - http
+            - https
+          environment: release
+          netTypes:
+            - OUTER
+          serviceTimeout: 15
+          customDomains:
+            - domain: tianzeds.com
+              isDefaultMapping: true
+              protocols:
+                - https
+              certificateId: SwpmZH5y
+              netType: OUTER
+              pathMappingSet:
+                - path: /
+                  environment: release
+          endpoints:
+            - path: /
+              method: ANY
+              enableCORS: true
