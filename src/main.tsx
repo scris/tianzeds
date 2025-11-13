@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from "react-dom/client";
 
 import './index.less';
@@ -56,11 +56,12 @@ const Main: React.FC = () => {
         <div className={'normal'}>
           <p>
             <a href={'https://github.com/scris'} target={'_blank'}>GitHub @scris</a>&nbsp;|&nbsp;
-            <a href={'https://legacy.tianzeds.pages.dev/'} target={'_blank'}>Former Website Version</a>&nbsp;|&nbsp;
+            <a href={'https://legacy.tianzeds.pages.dev/'} target={'_blank'}>Old Website</a>&nbsp;|&nbsp;
             <a href={'https://orcid.org/0009-0009-7532-5620'} target={'_blank'}>ORCID</a>&nbsp;|&nbsp;
             <a href={'https://www.linkedin.com/in/tianze-qiu-5744ba320/'} target={'_blank'}>LinkedIn</a>&nbsp;|&nbsp;
-            <a href={'./cv-en.pdf'} target={'_blank'}>CV in English</a>&nbsp;|&nbsp;
-            <a href={'./cv-cn.pdf'} target={'_blank'}>CV in Chinese</a>
+            <a href={'./cv-en.pdf'} target={'_blank'}>Resume</a>&nbsp;|&nbsp;
+            <a href={'./cv-cn.pdf'} target={'_blank'}>中文简历</a>&nbsp;|&nbsp;
+            <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2025209903号-1</a>
           </p>
         </div>
       </div>
