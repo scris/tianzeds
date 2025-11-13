@@ -42,11 +42,19 @@ try {
   execSync('chmod +x scf_bootstrap', { cwd: outDir });
 } catch {}
 
-// Try to install production deps if pnpm exists; ignore failure in restricted envs
-try {
-  execSync('pnpm i --prod', { cwd: outDir, stdio: 'inherit' });
-} catch (e) {
-  console.warn('Warning: Failed to install production deps in .scf_build. You may need to run it manually before packaging.');
+// Install production deps in .scf_build
+let installed = false;
+for (const cmd of [
+  'pnpm i --prod --frozen-lockfile',
+]) {
+  try {
+    execSync(cmd, { cwd: outDir, stdio: 'inherit' });
+    installed = true;
+    break;
+  } catch {}
+}
+if (!installed) {
+  console.warn('Warning: Failed to install production deps in .scf_build. Ensure node_modules exists before deploying.');
 }
 
 // Optional zip
