@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import ReactDOM from "react-dom/client";
 
 import './index.less';
@@ -15,7 +15,7 @@ const Main: React.FC = () => {
             <a href={'https://www.bupt.edu.cn/'}>BUPT</a>
             &nbsp;and&nbsp;
             <a href={'https://www.qmul.ac.uk/'}>Queen Mary</a>,
-            doing research on Agentic AI, NLP and Trustworthy AI.
+            doing research on Agentic AI, NLP and AI Safety.
           </p>
           <p>
             Incoming Ph.D. student of both&nbsp;
@@ -46,7 +46,7 @@ const Main: React.FC = () => {
         <div className={'subtitle'}>Noteworthy Facts</div>
         <div className={'normal'}>
           <p><span className={'time'}>2024.12:</span> I was awarded the 2024 China National Scholarship.</p>
-          <p><span className={'time'}>2024.10:</span> I won International Gold Medal (Top 0.009%) at China International College Students’ Innovation Competition (a.k.a. “Internet+”) as leading contributor.</p>
+          <p><span className={'time'}>2024.10:</span> I won International Gold Medal (Top 0.009%) at China International College Students' Innovation Competition (a.k.a. “Internet+”) as leading contributor.</p>
           <p><span className={'time'}>2024.2:</span> The project I co-led, MashOn, is listed among 18 typical cases of AI + Higher Education by the Ministry of Education of China.</p>
           <p><span className={'time'}>2023.6:</span> I got an impressive CET-6 English score of 636 / 710.</p>
         </div>
