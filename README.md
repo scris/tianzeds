@@ -4,16 +4,16 @@ New website for Tianze Ds, now shipped on Tencent Cloud SCF.
 
 ## SCF Setup
 ``` bash
-# Installing packages
+# Install packages
 pnpm install
 
 # Build locally
 pnpm run build
 
-# Local SCF preview
+# SCF preview locally
 pnpm run scf:preview
 
-# Local SCF upload
+# SCF upload
 pnpm run scf:update
 ```
 
