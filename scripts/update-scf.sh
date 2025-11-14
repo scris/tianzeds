@@ -5,10 +5,10 @@ set -euo pipefail
 # Prefers COS upload to avoid command-line size limits. Falls back to base64 for small zips.
 
 # Config via env (override as needed):
-#   REGION=ap-nanjing FUNCTION_NAME=tianzeds
-#   COS_BUCKET=your-bucket-123 REGION=ap-nanjing COS_PREFIX=scf/packages
+#   REGION=ap-guangzhou FUNCTION_NAME=tianzeds
+#   COS_BUCKET=your-bucket-123 REGION=ap-guangzhou COS_PREFIX=scf/packages
 
-REGION=${REGION:-ap-nanjing}
+REGION=${REGION:-ap-guangzhou}
 FUNCTION_NAME=${FUNCTION_NAME:-tianzeds}
 ZIP_PATH=".scf/site.zip"
 
@@ -38,6 +38,7 @@ if [[ -n "${COS_BUCKET:-}" ]]; then
 
   echo "[3/3] Updating function code via COS reference…"
   tccli scf UpdateFunctionCode \
+    --region "$REGION" \
     --FunctionName "$FUNCTION_NAME" \
     --CosBucketName "$COS_BUCKET" \
     --CosBucketRegion "$REGION" \
@@ -50,7 +51,7 @@ ZIP_SIZE=$(stat -f%z "$ZIP_PATH" 2>/dev/null || stat -c%s "$ZIP_PATH")
 if (( ZIP_SIZE > 5000000 )); then
   echo "Package is $(printf '%.1f' "$(echo "$ZIP_SIZE/1048576" | bc -l)") MB; too large for inline base64 reliably." >&2
   echo "Please configure COS upload by setting COS_BUCKET and REGION, e.g.:" >&2
-  echo "  COS_BUCKET=your-bucket REGION=ap-nanjing COS_PREFIX=scf pnpm run scf:update" >&2
+  echo "  COS_BUCKET=your-bucket REGION=ap-guangzhou COS_PREFIX=scf pnpm run scf:update" >&2
   exit 3
 fi
 
