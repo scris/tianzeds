@@ -60,8 +60,11 @@ const Main: React.FC = () => {
             <a href={'https://orcid.org/0009-0009-7532-5620'} target={'_blank'}>ORCID</a>&nbsp;|&nbsp;
             <a href={'https://www.linkedin.com/in/tianze-qiu-5744ba320/'} target={'_blank'}>LinkedIn</a>&nbsp;|&nbsp;
             <a href={'./cv-en.pdf'} target={'_blank'}>Resume</a>&nbsp;|&nbsp;
-            <a href={'./cv-cn.pdf'} target={'_blank'}>中文简历</a>&nbsp;|&nbsp;
-            <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2025209903号-1</a>
+            <a href={'./cv-cn.pdf'} target={'_blank'}>中文简历</a>
+          </p>
+          <p className={'beian'}>
+            <a href="https://beian.miit.gov.cn/" target="_blank">浙ICP备2025209903号-1</a>&nbsp;|&nbsp;
+            <img src="./gongan.png" height={'19'} />&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">京公网安备11010802046649号</a>
           </p>
         </div>
       </div>
