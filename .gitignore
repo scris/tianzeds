@@ -26,3 +26,8 @@ thumbs.db
 !.gitkeep
 /www
 src/assets/leancloud.json
+
+.scf/
+.scf_build/
+coscli.log
+coscli_output/
