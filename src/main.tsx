@@ -29,7 +29,7 @@ const Main: React.FC = () => {
       <div className={'part'}>
         <div className={'subtitle'}>Education</div>
         <div className={'normal'}>
-          <p><span className={'time'}>Starting from 2026.9:</span> Fudan University, Ph.D. student in Computer Science and Technology.</p>
+          <p><span className={'time'}>Starting from 2026.9:</span> KW Lab, Fudan University, Ph.D. student in Computer Science and Technology.</p>
           <p><span className={'time'}>Starting from 2026.1:</span> UPV, València, Spain, Exchange student at ETSIT, UPV.</p>
           <p><span className={'time'}>2022.9 - 2026.6:</span> BUPT, Undergraduate student in Intelligent Science and Technology. Rank: 2 / 98.</p>
           <p><span className={'time'}>2019.9 - 2022.6:</span> Hangzhou No.2 High School, Zhejiang.</p>
@@ -46,7 +46,7 @@ const Main: React.FC = () => {
       <div className={'part'}>
         <div className={'subtitle'}>Noteworthy Facts</div>
         <div className={'normal'}>
-          <p><span className={'time'}>2025.10:</span> As the first student author and second author, I had a paper, <a href={'https://www.researchgate.net/publication/396418425_WebCloak_Characterizing_and_Mitigating_Threats_from_LLM-Driven_Web_Agents_as_Intelligent_Scrapers'} target={'_blank'}>WebCloak</a>, accepted at IEEE S&amp;P '26 (Security Big 4, CCF-A, Core-A*, Acceptance Rate 118 / 925 ≈ 13%).</p>
+          <p><span className={'time'}>2025.10:</span> As the first student author and second author, I had a paper, <a href={'https://www.researchgate.net/publication/396418425_WebCloak_Characterizing_and_Mitigating_Threats_from_LLM-Driven_Web_Agents_as_Intelligent_Scrapers'} target={'_blank'}>WebCloak</a>, accepted at IEEE S&amp;P '26 (Security Big 4, CCF-A, Core-A*, Acceptance Rate 118 / 925 ≈ 13%), and posted on <a href='https://mp.weixin.qq.com/s/5bSXN0GTNJQw-kqM2DL87w' target={'_blank'}>新智元</a>.</p>
           <p><span className={'time'}>2024.12:</span> I was awarded the 2024 China National Scholarship.</p>
           <p><span className={'time'}>2024.10:</span> I won International Gold Medal (Top 0.009%) at China International College Students' Innovation Competition (a.k.a. “Internet+”) as leading contributor.</p>
           <p><span className={'time'}>2024.2:</span> The project I co-led, MashOn, is listed among 18 typical cases of AI + Higher Education by the Ministry of Education of China.</p>
