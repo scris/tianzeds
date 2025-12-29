@@ -46,6 +46,7 @@ const Main: React.FC = () => {
       <div className={'part'}>
         <div className={'subtitle'}>Noteworthy Facts</div>
         <div className={'normal'}>
+          <p><span className={'time'}>2025.12:</span> The app I developed, <a href={'https://timona.tianzeds.com/'} target={'_blank'}>Timona</a>, is now on App Store and App Gallery, and is downloadable on Windows and macOS.</p>
           <p><span className={'time'}>2025.10:</span> As the first student author and second author, I had a paper, <a href={'https://www.researchgate.net/publication/396418425_WebCloak_Characterizing_and_Mitigating_Threats_from_LLM-Driven_Web_Agents_as_Intelligent_Scrapers'} target={'_blank'}>WebCloak</a>, accepted at IEEE S&amp;P '26 (Security Big 4, CCF-A, Core-A*, Acceptance Rate 118 / 925 ≈ 13%), and posted on <a href='https://mp.weixin.qq.com/s/5bSXN0GTNJQw-kqM2DL87w' target={'_blank'}>新智元</a>.</p>
           <p><span className={'time'}>2024.12:</span> I was awarded the 2024 China National Scholarship.</p>
           <p><span className={'time'}>2024.10:</span> I won International Gold Medal (Top 0.009%) at China International College Students' Innovation Competition (a.k.a. “Internet+”) as leading contributor.</p>
