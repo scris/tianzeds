@@ -11,26 +11,26 @@ const Main: React.FC = () => {
         <div className={'title'}>Tianze Ds Qiu / 邱天泽</div>
         <div className={'normal'}>
           <p>
-            Undergraduate Student of both&nbsp;
-            <a href={'https://www.bupt.edu.cn/'} target={'_blank'}>BUPT</a>
+            Ph.D. student of both&nbsp;
+            <a href={'https://cs.fudan.edu.cn/'} target={'_blank'}>Fudan University</a>
             &nbsp;and&nbsp;
-            <a href={'https://www.qmul.ac.uk/'} target={'_blank'}>Queen Mary</a>,
-            doing research on Agentic AI, NLP and AI Safety.
+            <a href={'https://sii.edu.cn/'} target={'_blank'}>Shanghai Innovation Institute</a> doing research on Agentic AI and AI Safety.
           </p>
           <p>
-            Incoming Ph.D. student of both&nbsp;
-            <a href={'https://cs.fudan.edu.cn/'} target={'_blank'}>College of CS and AI, Fudan University</a>
+            Former Undergraduate Student of both&nbsp;
+            <a href={'https://www.bupt.edu.cn/'} target={'_blank'}>Beijing University of Posts and Telecommunications</a>
             &nbsp;and&nbsp;
-            <a href={'https://sii.edu.cn/'} target={'_blank'}>Shanghai Innovation Institute</a>.
+            <a href={'https://www.qmul.ac.uk/'} target={'_blank'}>Queen Mary University of London</a>.
+            
           </p>
-          <p>Also got interests in Apps / Web Development. Loving Cross-Platform.</p>
+          <p>Also got interests in Development of Mobile and Web Applications. Loving Cross-Platform.</p>
         </div>
       </div>
       <div className={'part'}>
         <div className={'subtitle'}>Education</div>
         <div className={'normal'}>
-          <p><span className={'time'}>Starting from 2026.9:</span> KW Lab, Fudan University, Ph.D. student in Computer Science and Technology.</p>
-          <p><span className={'time'}>Starting from 2026.1:</span> UPV, València, Spain, Exchange student at ETSIT, UPV.</p>
+          <p><span className={'time'}>2026.9 - Now:</span> Fudan University and SII, Ph.D. student in Computer Science and Technology.</p>
+          <p><span className={'time'}>2026.1 - 2026.5:</span> Universitat Politècnica de València, Spain, Exchange student at ETSIT, UPV.</p>
           <p><span className={'time'}>2022.9 - 2026.6:</span> BUPT, Undergraduate student in Intelligent Science and Technology. Rank: 2 / 98.</p>
           <p><span className={'time'}>2019.9 - 2022.6:</span> Hangzhou No.2 High School, Zhejiang.</p>
         </div>
@@ -38,9 +38,9 @@ const Main: React.FC = () => {
       <div className={'part'}>
         <div className={'subtitle'}>Experiences</div>
         <div className={'normal'}>
-          <p><span className={'time'}>2025.2 - 2025.9:</span> Intern at NTU Singapore, on Agentic AI Safety, working under Dr. Xinfeng Li.</p>
+          <p><span className={'time'}>2025.2 - 2025.9:</span> Intern at NTU Singapore, on Agentic AI Safety, working under Prof. Xinfeng Li.</p>
           <p><span className={'time'}>2024.10 - 2025.5:</span> Intern at AIBox, Gaoling School of AI, RUC, on LLM Reinforcement Learning.</p>
-          <p><span className={'time'}>2022.10 - 2025.4:</span> Co-creator of MashOn / 码上 Online LLM Education Platform.</p>
+          <p><span className={'time'}>2022.10 - 2025.4:</span> Co-leader of MashOn / 码上 and <a href={'https://trufar.cn/'} target={'_blank'}>TruFar / 初发</a> Online LLM Education Platforms.</p>
         </div>
       </div>
       <div className={'part'}>
